@@ -9,9 +9,6 @@
 			"email": "support@wordpressvn.com"
 		}
 	],
-	"require": {
-		"cocur/slugify": "*"
-	},
 	"suggest": {
 		"ext-json": "*"
 	},
