@@ -1,0 +1,23 @@
+{
+	"name": "wordpressvn/vietnam-address",
+	"version": "1.0.0",
+	"description": "Display information on the administrative divisions of Vietnam (Provinces, Cities, Districts, Towns, Communes, Wards, Townships, etc.)",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "TienCOP",
+			"email": "support@wordpressvn.com"
+		}
+	],
+	"require": {
+		"cocur/slugify": "*"
+	},
+	"suggest": {
+		"ext-json": "*"
+	},
+	"autoload": {
+        "psr-4": {
+          "WPVNTeam\\VietnamAddress\\" : "src/"
+        }
+	}
+}
